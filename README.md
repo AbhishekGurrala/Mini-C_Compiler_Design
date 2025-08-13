@@ -42,14 +42,12 @@ Built using **Flex**, **Bison**, and **C/C++**, this project demonstrates the co
 ```
 project/
 │
-├── lexer.l             # Lexical analysis rules
-├── parser.y            # Grammar and parsing rules
-├── tac_generator.c     # Three-Address Code generation
-├── optimizer.c         # TAC optimization
-├── codegen.c           # Final code generation
-├── include/            # Header files
-├── examples/           # Example C-like source codes
-└── README.md           # Project documentation
+├── a3.l               # Lexical analysis rules for Mini-C
+├── a3.y               # Grammar and parsing rules for Mini-C
+├── tac.l              # Lexical analysis rules for TAC
+├── tac.y              # Grammar and parsing rules for TAC
+├── Makefile           # Automates compiler
+└── README.md          # Project documentation
 ```
 
 ---
